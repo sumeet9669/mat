@@ -1,3 +1,4 @@
+%1.
 % prompt = 'Enter the value of the matrix:';
 % x = input(prompt)
 % %function lowest = low(I)
@@ -6,6 +7,7 @@
 % %end
 
 % ///////////////////////////////////////
+%2.
 % %prompt = 'Enter room temp:';
 % y = input('Enter room temp:')
 % %prompt1 = 'Enter the unit to convert to:';
@@ -21,6 +23,7 @@
 % end
 %////////////////////////////////////////
 
+%3.
 % x = input('Enter the first array in order:')
 % y = input('Enter the second array in order:')
 % [xa, xb] = size(x)
@@ -35,6 +38,7 @@
 % end
 %////////////////////////////////////////
 
+%4.
 % x = input('Enter the first set:')
 % y = input('Enter the second set:')
 % [a b] = intersect(x,y)
@@ -47,6 +51,7 @@
 
 %////////////////////////////////////////
 
+%5.
 x = input('Enter the prices:')
 y = input('Enter the quantity:')
 fprintf('the total bill is: %d',(sum(x.*y)))
