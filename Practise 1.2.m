@@ -57,3 +57,15 @@ y = input('Enter the quantity:')
 fprintf('the total bill is: %d',(sum(x.*y)))
 
 %///////////////////////////////////////////////
+
+% data = [1 1 2 3 4 5 6 7 8 9 10 1 2 5 4 6 5 2 8];
+% 
+% edges = 2:2:10;
+% y = discretize(data,edges);
+% y1 = discretize(data,edges,'IncludedEdge','right');
+% bin1: 2-3.99.........2-4
+% bin2: 4-5.99.........4.01-6
+% bin3: 6-7.99.........6.01-8
+% bin4: 8-9.99.........8.01-10
+
+%////////////////////////////////////////////
